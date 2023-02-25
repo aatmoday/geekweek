@@ -8,6 +8,7 @@ const App = () => {
   return (
     <>
       <Header />
+      <div className="bg"></div>
       <main>
         <section className="center-container">
           <div className="glitch-container">

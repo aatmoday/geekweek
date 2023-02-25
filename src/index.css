@@ -6,11 +6,22 @@
   font-family: Montserrat, "Segoe-UI", sans-serif;
 }
 
+html {
+}
+
 body {
+  overflow-x: hidden;
+}
+
+.bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   background-image: url("./assets/images/bg.jpg");
+
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden;
+  z-index: -9999;
 }
 
 header {
@@ -21,6 +32,8 @@ header {
   align-items: center;
   justify-content: space-between;
   z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .logo-container {
@@ -29,14 +42,14 @@ header {
 }
 
 .logocsjm {
-  width: 7rem;
+  width: 5rem;
   margin-right: 1rem;
   border-right: 1px solid white;
   padding-right: 1rem;
 }
 
 .logoaa {
-  width: 15rem;
+  width: 12rem;
 }
 
 .center-container {
@@ -193,7 +206,8 @@ header {
     font-size: 1.75rem;
   }
   .content p {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
   .links-container {
     flex-direction: column;
