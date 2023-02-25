@@ -11,9 +11,9 @@ const App = () => {
       <div className="bg"></div>
       <main>
         <section className="center-container">
-            <div className="glitch-container">
-              <img src={GlitchText} alt="GEEK WEEK" className="glitch-center" />
-            </div>
+          <div className="glitch-container">
+            <img src={GlitchText} alt="GEEK WEEK" className="glitch-center" />
+          </div>
         </section>
         <section id="about" className="center-container">
           <div className="content">
@@ -84,8 +84,8 @@ const App = () => {
           <h1 className="section-heading">CONTACT US</h1>
         </section>
         <footer>
-          COPYRIGHT © {new Date().getFullYear()} MKCY INDUSTRIAL SOLUTIONS - ALL
-          RIGHTS RESERVED
+          COPYRIGHT © {new Date().getFullYear()} Geek-वीक AATMODAY, CSJM
+          UNIVERSITY - ALL RIGHTS RESERVED
         </footer>
       </main>
     </>
