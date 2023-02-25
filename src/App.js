@@ -11,9 +11,9 @@ const App = () => {
       <div className="bg"></div>
       <main>
         <section className="center-container">
-          <div className="glitch-container">
-            <img src={GlitchText} alt="GEEK WEEK" className="glitch-center" />
-          </div>
+            <div className="glitch-container">
+              <img src={GlitchText} alt="GEEK WEEK" className="glitch-center" />
+            </div>
         </section>
         <section id="about" className="center-container">
           <div className="content">
@@ -83,7 +83,10 @@ const App = () => {
         <section id="contact" className="center-container">
           <h1 className="section-heading">CONTACT US</h1>
         </section>
-        <footer>COPYRIGHT %C%</footer>
+        <footer>
+          COPYRIGHT © {new Date().getFullYear()} MKCY INDUSTRIAL SOLUTIONS - ALL
+          RIGHTS RESERVED
+        </footer>
       </main>
     </>
   );

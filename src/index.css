@@ -190,12 +190,12 @@ header {
     width: 100%;
   }
   .glitch-container::before {
-    font-size: 1.25rem;
-    top: 2vh;
+    font-size: 1rem;
+    top: 0vh;
   }
   .glitch-container::after {
-    font-size: 1.25rem;
-    bottom: 2vh;
+    font-size: 1rem;
+    bottom: 1vh;
   }
   .content {
     width: 100%;
