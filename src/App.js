@@ -73,6 +73,16 @@ const App = () => {
             </div>
           </div>
         </section>
+        <section id="events" className="center-container">
+          <h1 className="section-heading">EVENTS</h1>
+        </section>
+        <section id="team" className="center-container">
+          <h1 className="section-heading">TEAM</h1>
+        </section>
+        <section id="contact" className="center-container">
+          <h1 className="section-heading">CONTACT US</h1>
+        </section>
+        <footer>COPYRIGHT %C%</footer>
       </main>
     </>
   );
