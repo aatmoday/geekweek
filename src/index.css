@@ -157,6 +157,11 @@ header {
   background-color: rgb(227, 227, 227);
 }
 
+footer {
+  text-align: center;
+  color: #fff;
+}
+
 *::-webkit-scrollbar {
   display: none;
 }
