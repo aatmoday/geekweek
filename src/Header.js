@@ -28,9 +28,9 @@ const Header = () => {
         <a href="#events" className="nav-link">
           events
         </a>
-        <a href="#team" className="nav-link">
+        {/* <a href="#team" className="nav-link">
           team
-        </a>
+        </a> */}
         <a href="#contact" className="nav-link">
           contact us
         </a>
