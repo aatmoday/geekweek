@@ -5,12 +5,12 @@ const Webdevset = () => {
     <section className="center-container">
       <h1 className="section-heading">Submission</h1>
       <a
-        href="https://forms.gle/9HHSAS8WzBpRz6Xa7"
+        href="https://forms.gle/A4coaKcb1jkdZYH36"
         target="_blank"
         rel="noreferrer"
         className="link"
       >
-        Click here to submit Round 1
+        Abstract Idea Submission
       </a>
     </section>
   );
